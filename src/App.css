@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.job{
+  color:#0d7c7e;
+  font-weight: 100;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.text-right {
+  float: right;
+  cursor: pointer;
+}
+
+.sort_selected::after {
+  content: '\f00c';
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  margin: 0px 0px 0px 10px;
+  display: inline-block;
+}
+
+.sort{
+  padding-left: 64px;
+}
+
